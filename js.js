@@ -1,5 +1,9 @@
 var e = new Date(), igrac1, igrac2, pocz;
 var a = f = prompt("Starting Life Points");
+m = prompt("Name of Player 1");
+n = prompt("Name of Player 2");
+document.getElementById("player1").innerHTML = m;
+document.getElementById("player2").innerHTML = n;
 document.getElementById("zivotni1").innerHTML = a;
 document.getElementById("zivotni2").innerHTML = f;
 function oduzimanje() {
