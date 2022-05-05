@@ -4,22 +4,26 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <section>
+        <section class="container">
             <div class="left-half">
                 <article>
-                    <p id = "player1" class="firstClass"></p>
-                    <p id = "zivotni1" class="thirdClass"></p>
-                    <button onclick="oduzimanje()">Change of Life Points For Player 1</button>
-                    <button id="click" type="button">Coin Flip</button>
+                    <p>PLAYER 1</p>
+                    <h1 id = "player1" class="firstClass"></h1>
+                    <p id = "zivotni1" class="life"></p>
+                    <button onclick="oduzimanje()" class="myButton1">Change of Life Points For Player 1</button>
+                    <p></p>
+                    <button id="click" type="button" class="myButton3">Coin Flip</button>
                     <p>Coin flip: <span id="result"></span></p>
                 </article>
             </div>
             <div class="right-half">
                 <article>
-                    <p id = "player2" class="secondClass"></p>
-                    <p id = "zivotni2" class="z2" style="text-align: right;"></p>
-                    <button onclick="oduzimanje1()">Change of Life Points For Player 2</button>
-                    <button onclick="rolldice()">Roll Dice</button>
+                    <p>PLAYER 2</p>
+                    <h1 id = "player2" class="secondClass"></h1>
+                    <p id = "zivotni2" class="life"></p>
+                    <button onclick="oduzimanje1()" class="myButton">Change of Life Points For Player 2</button>
+                    <p></p>
+                    <button onclick="rolldice()" class="myButton2">Roll Dice</button>
                     <p>Die roll: <span id="diceN"></span></p>
                 </article>
             </div>

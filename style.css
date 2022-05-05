@@ -3,37 +3,145 @@ html, body, section, div {
   }
   
   body {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     font-size: 1.25rem;
-    line-height: 150%;
-    text-align: center;
-    text-shadow: 0 2px 2px #b6701e;
+    text-shadow: 0 2px 2px #000000;
   }
   
   h1 {
-    font-size: 1.75rem;
+    font-size: 3rem;
     margin: 0 0 0.75rem 0;
+    text-align: center;
+  }
+
+  button {
+      text-align: center;
   }
   
   .container {
     display: table;
     height: 100%;
     width: 100%;
+    text-align: center;
+    line-height: 150%;
   }
   
   div {
     display: table-cell;
-    text-align: center;
-    vertical-align: middle;
     width: 50%;
     padding: 1rem;
+    vertical-align: middle;
   }
   
   .left-half {
-    background: #ff9e2c;
+    background: #1780b1;
   }
   
   .right-half {
-    background: #b6701e;
+    background: #e02727;
   }
+
+  .life {
+      font-size: 50px;
+  }
+
+  .myButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #ffffff;
+	display: block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:5px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+    margin: auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton1 {
+	box-shadow: 3px 4px 0px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:18px;
+	border:1px solid #ffffff;
+	display: block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:5px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+    margin: auto;
+}
+.myButton1:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #ffffff;
+	display: block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:5px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+    margin:auto;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton3 {
+	box-shadow: 3px 4px 0px 0px #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:18px;
+	border:1px solid #ffffff;
+	display: block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:5px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+    margin: auto;
+}
+.myButton3:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
