@@ -7,12 +7,18 @@ document.getElementById("player2").innerHTML = n;
 document.getElementById("zivotni1").innerHTML = a;
 document.getElementById("zivotni2").innerHTML = f;
 function oduzimanje() {
-    var b = parseInt(prompt("Number"));
-    var d = parseInt(a);
-    document.getElementById("zivotni1").innerHTML = a = b + d;
+    var d = parseInt(prompt("Number"));
+    if (Number.isNaN(d)){
+        d=0
+    }
+    var u = parseInt(a);
+    document.getElementById("zivotni1").innerHTML = a = u - d;
 }
 function oduzimanje1() {
     var g = parseInt(prompt("Number"));
     var h = parseInt(f);
-    document.getElementById("zivotni2").innerHTML = f = g + h;
+    if (Number.isNaN(g)){
+        g=0
+    }
+    document.getElementById("zivotni2").innerHTML = f = h - g;
 }
